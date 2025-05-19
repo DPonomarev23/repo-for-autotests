@@ -1,7 +1,7 @@
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
+import pages.RegistrationPage;
 
 import java.io.File;
 
@@ -19,7 +19,9 @@ public class TestForDemoqa {
 
     @Test
     public void successfulTest() {
-        open("https://demoqa.com/automation-practice-form");
+        new RegistrationPage().openPage();
+
+
         $("#firstName").setValue("John");
         $("#lastName").setValue("Ivanov");
         $("#userEmail").setValue("dadad@mail.ru");
