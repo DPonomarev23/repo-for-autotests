@@ -4,19 +4,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-import java.io.File;
-
-import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selenide.*;
-
 
 public class TestWIthPageObjectsForDemoqa extends TestBase {
 
 
     private static final Logger log = LoggerFactory.getLogger(TestWIthPageObjectsForDemoqa.class);
-
     @Test
     public void successfulTest() {
+
         String firstName = "John";
         String lastName =  "Ivanov";
         String email = "dadad@mail.ru";

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestWithJavaFakerForDemoqa" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-10T10:42:36" hostname="MININT-25OFD2E" time="5.106">
+  <properties/>
+  <testcase name="successfulTest()" classname="TestWithJavaFakerForDemoqa" time="5.106"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+июн. 10, 2025 1:42:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+</testsuite>

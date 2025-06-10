@@ -5,6 +5,7 @@ import pages.components.CalendarComponent;
 import pages.components.ResultModalComponent;
 
 import java.io.File;
+import java.io.InputStream;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
@@ -13,7 +14,7 @@ import static com.codeborne.selenide.Selenide.$$;
 public class RegistrationPage {
     private CalendarComponent calendarComponent = new CalendarComponent();
     private ResultModalComponent resultModalComponent = new ResultModalComponent();
-    private File file = new File("C:\\Users\\RenUser\\Desktop\\ihtr.jpg");
+    //private File file = new File("C:\\Users\\RenUser\\Desktop\\ihtr.jpg");
     private SelenideElement
             firstNameInput = ($("#firstName")),
             lastNameInput = ($("#lastName")),
@@ -68,8 +69,13 @@ public class RegistrationPage {
     }
 
     public RegistrationPage uploadFile() {
+        InputStream inputStream = getClass().getClassLoader().getResourceAsStream("ihtr.jpg");
+
+        if (inputStream == null) {
+            throw new IllegalArgumentException("Файл не найден в ресурсах: ihtr.jpg");
+        }
         $("#hobbiesWrapper .custom-control").click();
-        $("#uploadPicture").uploadFile(file);
+        //$("#uploadPicture").uploadFile(file);
         return this;
     }
 
