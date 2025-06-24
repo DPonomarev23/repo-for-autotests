@@ -1,0 +1,1 @@
+{"uuid":"6ef4c2c5-4bbb-42f2-8ad0-f7cf59648b57","name":"TestForDemoqaWithAllureLambdaSteps","children":["af0f753a-78a4-430d-ae7b-4361b3ae45e6"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1750060186913,"stop":1750060186924}],"afters":[],"start":1750060186853,"stop":1750060192229}

@@ -1,0 +1,1 @@
+{"uuid":"5c144ae2-7325-4c21-a994-0c400b542195","name":"TestForDemoqaWithAllureAnnotatedSteps","children":["7b3df482-5ec0-452c-9572-9108d11f4429"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1749906656143,"stop":1749906656161}],"afters":[],"start":1749906656052,"stop":1749906657006}

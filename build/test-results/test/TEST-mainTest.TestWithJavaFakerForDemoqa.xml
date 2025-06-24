@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mainTest.TestWithJavaFakerForDemoqa" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-24T06:33:19" hostname="MININT-25OFD2E" time="19.044">
+  <properties/>
+  <testcase name="successfulTest()" classname="mainTest.TestWithJavaFakerForDemoqa" time="19.044"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
