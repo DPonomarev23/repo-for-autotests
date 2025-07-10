@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mainTest.TestWIthPageObjectsForDemoqa" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-10T07:26:23" hostname="MININT-25OFD2E" time="4.599">
+  <properties/>
+  <testcase name="successfulTest()" classname="mainTest.TestWIthPageObjectsForDemoqa" time="4.599"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

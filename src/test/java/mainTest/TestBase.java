@@ -14,7 +14,7 @@ public class TestBase {
     @BeforeAll
     static void setup() {
         Configuration.pageLoadStrategy = "eager";
-        Configuration.browserSize = "1920x1080";
+        Configuration.browserSize = System.getProperty("base_size","1920x1080") ;
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="allure.TestForDemoqaWithAllureAnnotatedSteps" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-10T07:26:01" hostname="MININT-25OFD2E" time="11.596">
+  <properties/>
+  <testcase name="Заполнение анкеты и проверка на корректность данных" classname="allure.TestForDemoqaWithAllureAnnotatedSteps" time="11.596"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[июл. 10, 2025 10:26:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 138
+]]></system-err>
+</testsuite>

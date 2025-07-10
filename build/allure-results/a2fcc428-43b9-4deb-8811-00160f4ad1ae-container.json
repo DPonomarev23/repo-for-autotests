@@ -1,0 +1,1 @@
+{"uuid":"a2fcc428-43b9-4deb-8811-00160f4ad1ae","name":"TestWithJavaFakerForDemoqa","children":["87f1c8a7-d42b-4f03-a95a-dd6634ad3bf3"],"befores":[{"name":"setup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1752132433913,"stop":1752132433935}],"afters":[],"start":1752132433844,"stop":1752132444222}

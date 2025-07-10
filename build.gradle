@@ -40,6 +40,13 @@ tasks.withType(JavaCompile) {
     targetCompatibility = '17'//для работы со степами
 }
 
+tasks.withType(Test) {
+    systemProperties(System.getProperties())
+    useJUnitPlatform()
+
+}
+
+
 test {
     useJUnitPlatform()
 }
