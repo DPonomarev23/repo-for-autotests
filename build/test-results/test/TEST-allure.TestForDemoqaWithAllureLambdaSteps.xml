@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="allure.TestForDemoqaWithAllureLambdaSteps" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-11T10:53:12" hostname="MININT-25OFD2E" time="10.854">
+  <properties/>
+  <testcase name="successfulTest()" classname="allure.TestForDemoqaWithAllureLambdaSteps" time="10.854"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

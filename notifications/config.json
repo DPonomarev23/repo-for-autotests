@@ -1,0 +1,19 @@
+{
+  "base": {
+    "logo": "",
+    "project": "project for autotests",
+    "environment": "PROD",
+    "comment": "good job",
+    "reportLink": "",
+    "language": "ru",
+    "allureFolder": "allure-report/",
+    "enableChart": true,
+    "enableSuitesPublishing": false,
+    "customData": {}
+  },
+  "telegram": {
+    "token": "7911221639:AAEbnxmfd0b_ndrnLqizkZUn9J0-eK0SKcY",
+    "chat": "-1002326267514",
+    "replyTo": ""
+  }
+}
